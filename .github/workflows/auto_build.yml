@@ -1,6 +1,7 @@
 name: Compile Firmware
 
 on:
+  workflow_dispatch:
   push:
     branches:
     - master
